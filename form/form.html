@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="type=text/html; charset=utf-8" />
+		<link rel="stylesheet" href="./css/form.css" />
+		<title>Form</title>
+	</head>
+	<body>
+		<form>
+			<table>
+				<thead>
+					<th colspan="3">填写项目资料，开始申请服务</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="name">项目名称：</td>
+						<td class="normal">
+							<input class="empty project" />
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="name">所在地：</td>
+						<td class="normal">
+							<select class="short">
+								<option>浙江</option>
+							</select>
+							<select class="short">
+								<option>杭州</option>
+							</select>
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="name">项目方：</td>
+						<td class="normal">
+							<input class="empty" />
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="name">合同金额：</td>
+						<td class="money">
+							<input class="number hack iptContract" value="项目合同金额" />
+							<span>元</span>
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="name">申请金额：</td>
+						<td class="money">
+							<input class="number hack iptApply" value="材料采购金额" />
+							<span>元</span>
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="name">申请期限：</td>
+						<td class="normal">
+							<input />
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td class="name">合作厂家：</td>
+						<td class="normal">
+							<select class="long">
+								<option>厂家名称</option>
+							</select>
+						</td>
+						<td>
+							<i></i>
+							<span>新增合作厂家</span>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input class="submit" type="submit" value="提交申请" />
+						</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+		<script src="../lib/jQuery@1.12.4.min.js"></script>
+		<script src="./js/form.js"></script>
+	</body>
+</html>

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: Microsoft Yahei;
+}
+body {
+  background-color: #ebebeb;
+}
+form {
+  margin: 100px auto;
+  padding-top: 60px;
+  padding-left: 420px;
+  width: 580px;
+  height: 455px;
+  background-color: #fff;
+  background-image: url("../image/bg.png");
+  background-repeat: no-repeat;
+  background-position: 140px 128px;
+}
+table {
+  color: #515151;
+}
+table th {
+  text-align: left;
+  font-size: 18px;
+}
+table td {
+  padding-top: 15px;
+}
+table td.name {
+  text-align-last: justify;
+}
+table td.money {
+  position: relative;
+}
+table td.money input {
+  padding-right: 28px;
+  width: 226px;
+}
+table td.money span {
+  position: absolute;
+  right: 10px;
+  line-height: 30px;
+}
+table td.normal input {
+  width: 254px;
+}
+table td input,
+table td select {
+  float: left;
+  height: 30px;
+  border: 1px solid #ebebeb;
+}
+table td input {
+  padding-left: 6px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+table td input.holder {
+  color: #a2a2a2;
+}
+table td select.short {
+  margin-right: 2px;
+  width: 130px;
+}
+table td select.long {
+  width: 262px;
+}
+table td i {
+  margin-left: 10px;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url("../image/add.png");
+  cursor: pointer;
+}
+table td i,
+table td span {
+  vertical-align: middle;
+}
+table td span {
+  *margin-left: 6px;
+}
+table td .submit {
+  width: 100%;
+  background-color: #37c1b9;
+  border: none;
+  color: #fff;
+}

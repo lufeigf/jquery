@@ -1,0 +1,74 @@
+*
+	margin 0
+	padding 0
+	line-height 1
+	font-family Microsoft Yahei
+$grey=rgb(235, 235, 235)
+$darkGrey=rgb(81, 81, 81)
+body
+	background-color $grey
+form
+	margin 100px auto
+	padding-top 60px
+	padding-left 420px
+	width 580px
+	height 455px
+	background-color white
+	background-image url(../image/bg.png)
+	background-repeat no-repeat
+	background-position 140px 128px
+table
+	color $darkGrey
+	th
+		text-align left
+		font-size 18px
+	td
+		padding-top 15px
+		&.name
+			text-align-last justify
+		&.money
+			position relative
+			input
+				padding-right 28px
+				width 254-@padding-right
+			span
+				position absolute
+				right 10px
+				line-height 30px
+		&.normal
+			input
+				width 254px
+		input
+		select
+			float left
+			height 30px
+			border 1px solid $grey
+		input
+			padding-left 6px
+			line-height 30px
+			vertical-align middle
+			&.holder
+				color ($darkGrey*2)
+		select
+			&.short
+				margin-right 2px
+				width 130px
+			&.long
+				width 262px
+		i
+			margin-left 10px
+			display inline-block
+			width 17px
+			height @width
+			background-image url(../image/add.png)
+			cursor pointer
+		i
+		span
+			vertical-align middle
+		span
+			*margin-left 6px
+		.submit
+			width 100%
+			background-color rgb(55, 193, 185)
+			border none
+			color white
